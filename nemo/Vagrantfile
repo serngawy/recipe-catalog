@@ -22,9 +22,9 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:\$JAVA_HOME/bin
 SCRIPT
 
 $install_OfSoftSwitch = <<SCRIPT
-wget http://www.nbee.org/download/nbeesrc-12-05-16.zip
+wget http://www.nbee.org/download/nbeesrc-feb-24-2015.zip
 unzip nbeesrc-12-05-16.zip
-cd nbeesrc/src
+cd netbee/src
 cmake .
 make
 cp ../bin/libn*.so /usr/local/lib
